@@ -1,0 +1,28 @@
+project/
+│
+├── main.py                   # A fő futtatható Python fájl
+├── requirements.txt          # A szükséges csomagok listája (pl. pandas, openpyxl, tkinter)
+├── README.md                 # A projekt leírása
+├── .gitignore                # Git ignorálási szabályok
+│
+├── data_processing/          # Modul az adatok feldolgozásához
+│   ├── __init__.py
+│   ├── loader.py             # Adatok betöltése Excelből
+│   ├── processor.py          # Adatok feldolgozása
+│   ├── formatter.py          # Formázás az eredményhez
+│
+├── ui/                       # Modul a grafikus felülethez
+│   ├── __init__.py
+│   ├── app.py                # A GUI fő komponense
+│   ├── dialogs.py            # Különböző dialógusablakok
+│
+├── templates/                # Az Excel sablonok helye
+│   ├── input_template.xlsx   # Példa bemeneti sablon
+│   ├── output_template.xlsx  # Példa kimeneti sablon
+│
+├── tests/                    # Tesztek
+│   ├── __init__.py
+│   ├── test_processor.py     # Tesztek az adatfeldolgozásra
+│   ├── test_formatter.py     # Tesztek a formázásra
+│
+└── output/                   # Az elkészült eredményfájlok

@@ -1,0 +1,8 @@
+pandas
+openpyxl
+ttkthemes
+pytest
+black
+flake8
+xlsxwriter
+matplotlib
